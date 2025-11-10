@@ -17,7 +17,7 @@ const Home = ({ news, loadingNews, loadingTvPosts, tvPosts }) => {
     return (
       <>
         <Helmet>
-          <title>Início | É Notícia Monte Alegre</title>
+          <title>Início | É Notícia Ourilândia do Norte</title>
           <link
             rel="preload"
             href={news && news[0].cover}
